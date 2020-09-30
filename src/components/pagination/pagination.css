@@ -1,0 +1,22 @@
+.pageNo:hover {
+    background-color: #A03037;
+  }
+  
+  .buttonFocus:focus {
+    background-color: #A03037;
+  }
+
+  @media all and (max-width: 2000px) 
+{
+  .pageNo:hover {
+    background-color: #A03037;
+  }
+  
+  .buttonFocus:focus {
+    background-color: #A03037;
+  }
+
+
+
+
+}

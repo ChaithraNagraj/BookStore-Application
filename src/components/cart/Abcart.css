@@ -1,0 +1,471 @@
+
+.Customerabc-address-div{
+    border: 1px solid #757575;
+    margin-right: '10px';
+      border-radius: 5px;
+      box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);
+  }
+  .Customer-address-div{
+  border: 1px solid #757575;
+
+
+    border-radius: 5px;
+    box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);
+}
+
+.book-details-div{
+  
+  margin-top: 13px;
+  outline: none;
+}
+
+.book-details-div{
+  
+  margin-top: 13px;
+  outline: none;
+}
+
+.img-book {
+  width: 220px;
+    /* border: 2px solid; */
+    margin-left: 26px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.order-logo {
+  width: 136px;
+  margin-left: 40px;
+  margin-top: 16px;
+  outline: none;
+  height: 158px;
+}
+.aligncontentbesidepic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: left;
+  justify-content: center;
+  width: 300px;
+}
+.author-name-div{
+  font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  color: #968e8e;
+  margin-left: 20px;
+  margin-top: -18px;
+}
+.book-price-div{
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin-left: 20px;
+    margin-top: -11px;
+    font-weight: 500;
+}
+.quantity-div {
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    outline: none;
+    padding: 14px;
+}
+.input-type{
+  width: 14%;
+  padding: 0px 6px;
+  height: 30px;
+  padding-top: 3px;
+  /* padding-right: 10px; */
+  border-radius: 0px;
+  border: 1px solid #aaa;
+  outline: none;
+  display: inline;
+  text-align: center;
+}
+.remove-btn {
+  margin-left: 20px;
+  height: 29px;
+  outline: none;
+  width: 73px;
+  border: 2px solid brown;
+  color: brown;
+  background: #efe7e7;
+  background: #f5eded;
+  border-radius: 3px;
+  outline: none;
+}
+.continue-cart-div{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.address-title{
+  padding: 1px;
+  margin-left: 24px;
+  /*box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);*/
+}
+.my-cart-h4{
+  font-size: 21px;
+    padding: 11px;
+
+}
+.form-group{
+  display: flex;
+    justify-content: space-around;
+    width: 93%;
+    outline: none;
+    margin-bottom: 15px;
+
+} 
+
+.form-control {
+  width: 51%;
+  outline: none;
+  border-radius: 4px;
+  height: 36px;
+  padding: 3px;
+  margin-left: 26px;
+  border: 1px solid #aaa;
+}
+.address-group{
+  width: 100%;
+  border-radius: 4px;
+  height: 36px;
+  margin-right: 80px;
+  padding: 3px;
+  margin-left: 26px;
+  border: 1px solid #aaa;
+}
+
+.type-div{
+  padding-left: 26px;
+}
+.continue-shopping-button-div{
+display: flex;
+    /* margin-top: 2px; */
+    position: absolute;
+    top: 576px;
+    height: 35px;
+}
+.continue-shopping-button{
+  background-color: #88040fd8;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    width: 190px;
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.continue-cart-div{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.continue-shopping-cart-button{
+  background-color:  #88040fd8;
+  height: 32px;
+  /* margin-top: -99px; */
+  margin-block-start: auto;
+  /* padding-bottom: 5px; */
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  width: 190px;
+  font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.order-sumary{
+  border: 1px solid #757575;
+    border-radius: 2px;
+    box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);
+}
+.cart-title-div {
+  padding: 1px;
+  margin-left: 58px;
+}
+
+.order-details-div {
+  margin-left: -42px;
+}
+.img-book {
+  width: 220px;
+    /* border: 2px solid; */
+    margin-left: 26px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.book-title-div h4{
+  font-size: 18px;
+}
+
+.checkout-div{
+  display: flex;
+    justify-content: flex-end;
+    padding: 14px;
+    margin-right: 45px;
+}
+.checkout-button {
+  color: whitesmoke;
+  background-color: #88040fd8;
+  height: 32px;
+  width: 190px;
+  border-radius: 5px;
+  border: 1px;
+}
+.bookImage {
+    background-color: #F5F5F5; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+  }
+
+  @media  screen and (max-width:1700px) and (min-width: 1024px)
+{
+
+
+  .Customerabc-address-div{
+    border: 1px solid #757575;
+      border-radius: 5px;
+      box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);
+  }
+  .Customer-address-div{
+  border: 1px solid #757575;
+    border-radius: 5px;
+    box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);
+}
+
+.book-details-div{
+  
+  margin-top: 13px;
+  outline: none;
+}
+
+.book-details-div{
+  
+  margin-top: 13px;
+  outline: none;
+}
+
+.img-book {
+  width: 220px;
+    /* border: 2px solid; */
+    margin-left: 26px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.order-logo {
+  width: 136px;
+  margin-left: 40px;
+  margin-top: 16px;
+  outline: none;
+  height: 158px;
+}
+.aligncontentbesidepic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: left;
+  justify-content: center;
+  width: 300px;
+}
+.author-name-div{
+  font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  color: #968e8e;
+  margin-left: 20px;
+  margin-top: -18px;
+}
+.book-price-div{
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin-left: 20px;
+    margin-top: -11px;
+    font-weight: 500;
+}
+.quantity-div {
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    outline: none;
+    padding: 14px;
+}
+.input-type{
+  width: 14%;
+  padding: 0px 6px;
+  height: 30px;
+  padding-top: 3px;
+  /* padding-right: 10px; */
+  border-radius: 0px;
+  border: 1px solid #aaa;
+  outline: none;
+  display: inline;
+  text-align: center;
+}
+.remove-btn {
+  margin-left: 20px;
+  height: 29px;
+  outline: none;
+  width: 73px;
+  border: 2px solid brown;
+  color: brown;
+  background: #efe7e7;
+  background: #f5eded;
+  border-radius: 3px;
+  outline: none;
+}
+.continue-cart-div{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.address-title{
+  padding: 1px;
+  margin-left: 24px;
+  /*box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);*/
+}
+.my-cart-h4{
+  font-size: 21px;
+    padding: 11px;
+
+}
+.form-group{
+  display: flex;
+    justify-content: space-around;
+    width: 93%;
+    outline: none;
+    margin-bottom: 15px;
+
+} 
+
+.form-control {
+  width: 51%;
+  outline: none;
+  border-radius: 4px;
+  height: 36px;
+  padding: 3px;
+  margin-left: 26px;
+  border: 1px solid #aaa;
+}
+.address-group{
+  width: 100%;
+  border-radius: 4px;
+  height: 36px;
+  padding: 3px;
+  margin-left: 26px;
+  border: 1px solid #aaa;
+}
+
+.type-div{
+  padding-left: 26px;
+}
+.continue-shopping-button-div{
+display: flex;
+    /* margin-top: 2px; */
+    position: absolute;
+    top: 576px;
+    height: 35px;
+}
+.continue-shopping-button{
+  background-color: #88040fd8;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    width: 190px;
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.continue-cart-div{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.continue-shopping-cart-button{
+  background-color:  #88040fd8;
+  height: 32px;
+  /* margin-top: -99px; */
+  margin-block-start: auto;
+  /* padding-bottom: 5px; */
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  width: 190px;
+  font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.order-sumary{
+  border: 1px solid #757575;
+    border-radius: 2px;
+    box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);
+}
+.cart-title-div {
+  padding: 1px;
+  margin-left: 58px;
+}
+
+.order-details-div {
+  margin-left: -42px;
+}
+.img-book {
+  width: 220px;
+    /* border: 2px solid; */
+    margin-left: 26px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.book-title-div h4{
+  font-size: 18px;
+}
+
+.checkout-div{
+  display: flex;
+    justify-content: flex-end;
+    padding: 14px;
+    margin-right: 45px;
+}
+.checkout-button {
+  color: whitesmoke;
+  background-color: #88040fd8;
+  height: 32px;
+  width: 190px;
+  border-radius: 5px;
+  border: 1px;
+}
+.bookImage {
+    background-color: #F5F5F5; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+  }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

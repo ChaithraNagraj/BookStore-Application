@@ -1,0 +1,627 @@
+
+
+.header{
+  display: flex;
+  background-color: #88040fd8;
+  justify-content: space-between;
+  padding: 10px;
+  z-index: 99;
+  position:fixed;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  color: white;
+  height:42px;
+  /* margin-top:-80px; */
+  Top:0;
+
+}
+
+.book-logo-search-div{
+display: flex;
+position: relative;
+height: -10px;
+margin-top: -8px;
+margin-bottom: -6fpx;
+left: 12%;
+/* left: 150px; */
+align-items: center;
+}
+
+.book-logo-div{
+margin-right: 30px;
+}
+
+.book-title{
+margin-right: 70px;
+margin-top:-55px;
+
+margin-left: 40px;
+height: 20px;
+display: flex;
+}
+
+
+.Sign{
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: -8s0px;
+  font-weight:bold;
+
+}
+
+
+.search-textfield{
+ width: 500px;
+ background-color: white;
+ border-radius: 10px;
+ outline: none;
+}
+
+.cart-wishlist-div{
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 1 gfds5px;
+  right:0px;
+  margin-right: 120px;
+
+}
+.cart-div{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-left: '-40px'; */
+
+
+}
+.wishlist-div{
+display: flex;
+flex-direction: column;
+justify-content: center;  
+margin-left: 33px;
+align-items: center;
+}
+
+#icon-btn{
+  color: white;
+}
+.icon-counter {
+  padding-left: 9px;
+  padding-right: 2px;
+  border-radius: 50%;
+  height: 25px;
+  width: 30px;
+  border: 1px solid white;
+  color: white;
+}
+
+.bookcount-sortby-div{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16%;
+  margin-right: 18%;
+  margin-top: 80px;
+  align-items: center;
+}
+
+#Sort_By_Relevance{
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+}
+
+.pagination-div{
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.display-books-div{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 3px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 55px;
+    /* z-index: 100; */
+    z-index: 999;
+
+    display: block;
+    
+    margin-bottom: 20px;
+    min-height: 800px;
+}
+
+.MuiPaper-root.MuiCard-root.note-card.MuiPaper-elevation1.MuiPaper-rounded{ 
+  width:70%;
+  margin:10%;
+  height: 330px;
+  background-color: white;
+  margin-left: 20px;
+  /* display: block; */
+  /* position: absolute; */
+  /* z-index: 100; */
+}
+
+.MuiCardActions-root {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hover-card{ 
+  width:18%;
+  height: 40%;
+  background-color: transparent;
+  z-index: 1;
+}
+
+#pagination{
+  display: flex;
+  justify-content: center;
+  
+}
+.pagination{
+  border: 1px solid #aaa;
+
+}
+
+.footer-div {
+    display: flex;
+      position: relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #380008;
+      color: white;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .my-cart-main-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      min-height: 71px;
+      height: 600px;
+      
+  }
+
+  .my-cart-sub-div {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 1000px;
+    height: auto;
+    border: 1px solid #aaa;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.book-image-details-div {
+  display: flex;
+  margin:'center';
+  flex-direction: row;
+}
+
+.book-details-div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-around;
+}
+/* --------CART STUFF AFTER BELONGS TO VINOD---------- */
+.book-details-divcart {
+  /* display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-around; */
+  display: flex;
+  margin-top: 13px;
+  outline: none;
+  flex-direction: row;
+}
+.book-image-details-divcart {
+  display: flex;
+  flex-direction: row;
+}
+.book-details-divcart1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-around;
+}
+.book-image-divcart {
+  width: 220px;
+  height: 200px;
+}
+.my-cart-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 771px;
+  /* height: 800px; */
+  
+}
+
+.my-cart-sub-div {
+display: flex;
+flex-direction: column;
+justify-content:flex-start;
+width: 1000px;
+height: auto;
+border: 1px solid #aaa;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 30px;
+}
+/* ------BELONGS TO VINOD-------------------- */
+.item-quantity-div {
+  display: flex;
+  align-items: center;
+}
+
+.book-image-div {
+  width: 220px;
+  height: 200px;
+
+}
+
+#mycart-counter{
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #aaa;
+}
+.place-order-btn-div{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+#check-box-div{
+  display: flex;
+  
+}
+
+.customer-details-div{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  width: 1000px;
+  height: auto;
+  border: 1px solid #aaa;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.order-summary-div{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  width: 1000px;
+  height: auto;
+  border: 1px solid #aaa;
+  /* padding-left: 10px;
+  padding-top: 10px */
+  padding: 10px;
+}
+
+.order-main-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  min-height: 781px;
+}
+#img-ordersummary {
+  vertical-align: middle;
+  border-style: none;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+#img-book{
+  border-style: none;
+  margin-left: 20%;
+  width: 150px;
+  height: 150px;
+  flex: auto;
+  flex-direction: row;
+  /* justify-content:center ; */
+  /* padding: 10px; */
+}
+
+#form-check-label {
+  margin-bottom: 0;
+  padding-right: 40px;
+}
+#form-control {
+  width: 51%;
+  outline: none;
+  border-radius: 4px;
+  height: 36px;
+  padding: 3px;
+  margin-left: 26px;
+  border: 1px solid #aaa;
+}
+
+#img-cart {
+    vertical-align: middle;
+    border-style: none;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+
+}
+
+#bookcountfont{
+  font-size: small;
+}
+
+form#form {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #aaa
+}
+
+h2#welcome-text {
+  text-align: center;
+  margin: 50px;
+  color: #a71621;
+}
+.MuiTypography-h4{
+  font-size: 2.5rem !important;
+}
+
+#table-div {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  border:1px solid rgb(24, 22, 22);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#table-coloumn{
+  border:1px solid rgb(24, 22, 22);
+
+}
+
+#table, th, td {
+  border: 1px solid black;
+}
+
+
+/* Media Query  */
+ @media  screen and (max-width:1700px) and (min-width: 1024px)
+ {
+  .display-books-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) !important;
+    grid-gap: 3px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    min-height: 699px;
+
+}
+/* .header{
+  display: flex;
+  background-color: #88040fd8;
+  justify-content: space-between;
+  padding: 10px;
+  position:fixed;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  color: white;
+  height:42px;
+  margin-top:-80px;
+} */
+
+ }
+ 
+@media all and (max-width:768px)  
+{
+.display-books-div{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-gap: 3px;
+  justify-content: center;
+  margin-top: 10px;
+  /* margin-left: 40px; */
+  margin-bottom: 20px;
+  min-height: 900px;
+}
+
+  .book-logo-search-div {
+    display: flex;
+    position: relative;
+    left: 0px;
+    margin-bottom: -20px;
+    align-items: center;
+}
+.book-title {
+  margin-right: 35px;
+  /* margin-top: 20px; */
+}
+
+.search-textfield {
+  width: 0px;
+}
+.search-div {
+  margin-left: -30px;
+  /* height: 60%; */
+} 
+
+}
+
+ @media all and (max-width: 960px) 
+{
+  .book-logo-search-div {
+    display: flex;
+    position: relative;
+    left: 0px;
+    margin-bottom: -20px;
+    align-items: center;
+}
+.book-title {
+  margin-right: 35px;
+  /* margin-top: 20px; */
+}
+.Sign{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  right: 0px;
+  font-weight:bold;
+}
+
+.search-textfield {
+  width: 100%;
+}
+
+ .cart-wishlist-div{
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* right: 1 gfds5px; */
+ left :8%;
+
+}
+.cart-div{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-left: '-40px'; */
+
+
+}
+
+.bookcount-sortby-div {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 60px;
+}
+
+.display-books-div {
+  display: grid;
+  grid-template-columns: 200px;
+}
+
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 20px !important;
+}
+.icon-counter {
+  padding-left: 7px;
+  padding-right: 2px;
+  height: 22px;
+  width: 24px;
+  font-size: 12px;
+}
+
+h4.title {
+  font-size: 17px;
+}
+
+.MuiOutlinedInput-root {
+  height: 20px;
+}
+
+#Sort_By_Relevance {
+  padding: 0px;
+  font-size: 12px;
+}
+
+#display-book-title{
+  font-size: 18px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-size: 10px;
+}
+
+.my-cart-sub-div {
+   width: 347px;
+}
+.customer-details-div {
+  width: 347px;
+}  
+.order-summary-div {
+  width: 347px;
+} 
+#mycart-title{
+ font-size: 17px !important; 
+}
+
+#img-cart {
+  height: 170px;
+  width: 153px;
+}
+.increment-div {
+  display: flex;
+}
+.item-quantity-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mycart-counter {
+  padding-left: 0px;
+  padding-right: 0px; 
+}
+
+.MuiButton-label {
+  font-size: 8px;
+}
+.order-main-div {
+  min-height: 526px;
+  margin-top: 0px; 
+}
+#order-summary-title{
+font-size: 20px;
+}
+
+#img-ordersummary {
+  width: 200px;
+  height: 184px;
+}
+#address-table{
+  font-size: 10px;
+}
+}
+
+.book-price-div{
+  font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin-left: 20px;
+  margin-top: -11px;
+  font-weight: 500;
+}
+
+

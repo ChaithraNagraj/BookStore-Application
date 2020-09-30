@@ -1,0 +1,478 @@
+   /* OrderPlaced Css */
+  
+  .order-placed-container{
+    display: flex;
+    /* height: 522px; */
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 81px; */
+    min-height: 696px;
+    flex-direction: column;
+  }
+  .upper-image-div{
+    margin-top: 102px;
+  }
+  .table-div{
+    position: relative;
+      top: 52px;
+      width: 772px;
+      height: 52px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  table {
+    font-family:  adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .order-image-div{
+    height: 112px;
+      top: 83px;
+      left: 580px;
+  }
+  .order-info{
+    text-align: center;
+    font-weight: 600;
+    font-family:  adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .continue-shopping-button-div{
+  display: flex;
+      /* margin-top: 2px; */
+      position: absolute;
+      top: 576px;
+      height: 35px;
+  }
+  .continue-shopping-button{
+    background-color: dodgerblue;
+      border: none;
+      outline: none;
+      color: white;
+      border-radius: 5px;
+      width: 190px;
+      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .continue-cart-div{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    
+  }
+  .radioLeft{
+    justify-content: flex-start;
+  
+  
+  }
+  .continue-shopping-cart-button{
+    background-color: dodgerblue;
+    height: 32px;
+    /* margin-top: -99px; */
+    margin-block-start: auto;
+    /* padding-bottom: 5px; */
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    width: 190px;
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .continue-shopping-details-button{
+    background-color: dodgerblue;
+    border: none;
+    outline: none;
+    color: white;
+    height: 32px;
+    border-radius: 5px;
+    width: 190px;
+    font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .continue-shopping-button:hover{
+    background-color: #007bf3;
+  }
+  
+  
+  .type-div{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 26px;
+  }
+  
+  .address-group{
+    width: 100%;
+    border-radius: 4px;
+    height: 36px;
+    padding: 3px;
+    margin-left: 26px;
+    border: 1px solid #aaa;
+  }
+  
+  .MuiGrid-spacing-xs-5 {
+    width: calc(100% + 40px);
+    margin: -20px;
+    margin-top: 117px;
+  }
+  
+  .grid-div{
+    margin-top: -232px;
+  }
+  
+  .order-details-div{
+    display: flex;
+    width: 400%;
+    height: 350%;
+  
+  }
+  
+  .cart-title-div {
+    padding: 1px;
+    margin-left: 58px;
+  }
+  
+  .img-book {
+    width: 120px;
+      /* border: 2px solid; */
+      margin-left: 26px;
+      margin-bottom: 15px;
+      outline: none;
+  }
+  
+  .plus-btn {
+    border-radius: 20px;
+      border: 1px solid gray;
+      margin: 6px;
+      width: 27px;
+     
+      outline: none !important;
+      height: 27px;
+      width: 28px;
+  }
+  
+  .quantity-div {
+    align-items: center;
+      justify-content: center;
+      display: flex;
+      outline: none;
+      padding: 14px;
+  }
+  
+  .pagination-nav{
+    display: flex;
+      justify-content: center;
+  }
+  
+  .my-cart-h4{
+    font-size: 21px;
+      padding: 11px;
+      text-align: left;
+  }
+  
+  .pagination{
+    border: 1px solid #aaa;
+  }
+  
+  .remove-btn {
+    margin-left: 20px;
+    height: 29px;
+    outline: none;
+    width: 73px;
+    border: 2px solid brown;
+    color: brown;
+    background: #efe7e7;
+    background: #f5eded;
+    border-radius: 3px;
+    outline: none;
+  }
+    
+  .order-logo {
+    width: 136px;
+    margin-left: 40px;
+    margin-top: 16px;
+    outline: none;
+    height: 158px;
+  }
+  .book-details-div{
+    
+    display: flex;
+    margin-top: 13px;
+    outline: none;
+    flex-direction: row;
+  
+  
+  }
+  .book-title-div h4{
+    font-size: 18px;
+  }
+  .icon {
+    margin-left: -5px;
+    margin-top: -1px;
+    outline: none;
+  }
+  
+  .minus-btn {
+    border-radius: 20px;
+      border: 1px solid gray;
+      margin: 6px;
+      width: 27px;
+      height: 25px;
+      outline: none !important;
+  }
+  
+  .checkout-div{
+    display: flex;
+      justify-content: flex-end;
+      padding: 14px;
+      margin-right: 45px;
+  }
+  
+  .checkout-button {
+    color: whitesmoke;
+    background-color: dodgerblue;
+    height: 32px;
+    width: 190px;
+    border-radius: 5px;
+    border: 1px;
+  }
+  
+  .order-sumary{
+    border: 1px solid #757575;
+      border-radius: 2px;
+      box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);
+  }
+  .order-sumary:hover{
+    box-shadow: 11px 11px 11px 5px rgba(0, 0, 0, 0.40);
+  }
+  .cart-order{
+    border: 1px solid #757575;
+    box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top: 358px;
+    padding-bottom: 10px;
+  }
+  .cart-order:hover{
+    box-shadow: 11px 11px 11px 5px rgba(0, 0, 0, 0.40);
+  }
+  
+  .MuiGrid-spacing-xs-5 {
+    width: calc(100% + 40px);
+    margin: -20px;
+    padding-bottom: 87px;
+    }
+  .Customer-address-div{
+    border: 1px solid #757575;
+      border-radius: 5px;
+      box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);
+  }
+  .Customer-address-div:hover{
+    box-shadow: 11px 11px 11px 5px rgba(0, 0, 0, 0.40);
+  }
+  .address-title{
+    padding: 1px;
+    margin-left: 24px;
+    /*box-shadow: 14px 10px 11px 0px rgba(0,0,0,0.2);*/
+  }
+  /*.address-title:hover{
+    box-shadow: 11px 11px 11px 5px rgba(0, 0, 0, 0.40);
+  }*/
+  
+  .row-1{
+    display: flex;
+      justify-content: space-around;
+      margin-left: -43px;
+      padding: 15px;
+  }
+  
+  .row-2{
+    display: flex;
+      justify-content: space-around;
+      margin-left: -43px;
+      padding: 15px;
+  }
+  
+  .row-3{
+    display: flex;
+      justify-content: space-around;
+      margin-left: -43px;
+      padding: 15px;
+  }
+  
+  .row-4{
+    display: flex;
+      justify-content: space-around;
+      margin-left: -43px;
+      padding: 15px;
+  }
+  
+  .address-button {
+    color: whitesmoke;
+    background-color: dodgerblue;
+    height: 33px;
+    width: 199px;
+    border-radius: 5px;
+    border: 1px;
+    outline: none;
+  }
+  
+  .add-btn{
+    display: flex;
+      justify-content: flex-end;
+      margin: 18px;
+      outline: none;
+  }
+  
+  
+  .MuiContainer-root {
+    padding-left: 123px !important;
+    padding-right: 0px !important;
+  }
+  .cart-div {
+    margin-left: 70px !important;
+  }
+  
+
+  
+  /* cartpage  */
+  .quantity-div {
+    display: flex !important;
+    padding: 14px !important;
+    justify-content: normal;
+    width: 270px;
+  }
+  
+  .cart-order {
+      margin-left: 3px;
+  }
+  
+  .Customer-address-div{
+    margin-left: 3px;
+  }
+  
+  .order-sumary{
+    margin-left: 3px;
+  }
+  
+  .row-3{
+    margin-left: -29px;
+  }
+  
+  .remove-btn{
+    margin-top: -1px !important;
+  }
+  
+
+  .MuiInputLabel-outlined {
+    margin-left: -40px;
+  }
+  
+  .MuiGrid-spacing-xs-5 {
+    margin: 42px !important;
+  }
+  
+  /* orderplaced */
+  .table-div {
+    width: 772px !important;
+
+  
+  }
+  .book-details-div {
+    margin-left: -40px !important;
+  }
+  
+  .table-div {
+    width: 601px !important;
+  }
+  .cart-div{
+    padding-left: 75px !important;
+  }
+  
+  .grid-div {
+    margin-left: 73px;
+  }
+  .MuiGrid-spacing-xs-5 > .MuiGrid-item {
+    margin-bottom: 45px;
+  }
+  
+  .order-placed-container {
+    min-height: 1024px;
+  }
+  
+  .aligncontentbesidepic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: left;
+    justify-content: center;
+    width: 300px;
+  }
+  .book-details-sidebyside{
+    
+    display: flex;
+    margin-top: 13px;
+    outline: none;
+    flex-direction: row;
+  
+  
+  }
+  
+  
+   .BookCard-Header {
+    padding-left: 118px;
+  }
+  
+  
+  
+  
+   
+  .cart-div{
+    padding-left: 24px;
+      margin-right: 5px;
+      margin-left: -33px;
+  }
+  
+  .cart-title-div {
+    padding: 1px;
+    margin-left: 12px;
+  }
+  
+  .order-details-div {
+    margin-left: -42px;
+  }
+  
+  .book-details-div {
+    margin-left: -6px;
+  }
+  
+  .quantity-div {
+    display: block;
+    padding: 8px;
+  }
+  
+  .remove-btn {
+    margin-left: 29px;
+    margin-top: 3px;
+  }
+  
+  .order-sumary{
+    margin-right: -37px;
+  }
+  
+  .cart-order{
+    margin-right: -37px;
+  }
+  
+  .Customer-address-div{
+    margin-right: -37px;
+  }
+  
+  .table-div {
+    width: 377px;
+  }
+  
+  
+  
+ 

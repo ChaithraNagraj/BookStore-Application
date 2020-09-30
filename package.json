@@ -1,0 +1,54 @@
+{
+  "name": "bookstorefrontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.1",
+    "@material-ui/icons": "^4.9.1",
+    "@react-native-community/google-signin": "^4.0.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-avatar-edit": "^0.8.3",
+    "react-dom": "^16.13.1",
+    "react-hover": "^1.4.0",
+    "react-if-elseif-else-render": "^1.0.2",
+    "react-modal-login": "^1.4.5",
+    "react-native-google-signin": "^2.1.1",
+    "react-native-responsive-screen": "^1.4.1",
+    "react-native-vector-icons": "^7.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-s-alert": "^1.4.1",
+    "react-scripts": "^3.4.3",
+    "react-social-login": "^3.4.9",
+    "reactjs-popup": "^1.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "react-star-rating-component": "^1.4.1",
+    "sass-loader": "^8.0.2"
+  }
+}

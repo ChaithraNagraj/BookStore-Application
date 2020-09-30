@@ -1,0 +1,12 @@
+.ratingMain{
+    display: flex;
+    align-items: center;
+    height:50%;
+    font-size: 80px;
+    
+  }
+  .ratingRight{
+    display: flex;
+    align-items: center;
+  }
+  
